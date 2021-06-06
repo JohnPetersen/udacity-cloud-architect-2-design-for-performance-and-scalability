@@ -6,6 +6,7 @@ My Estimate,US East (N. Virginia),,Application Load Balancer,0,616.85,7402.20,US
 My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,1675.35,20104.20,USD,Number of NAT Gateways (1)
 My Estimate,US East (N. Virginia),,S3 Standard,0,96.45,1157.40,USD,S3 Standard storage (1 TB per month)
 My Estimate,US East (N. Virginia),,Data Transfer,0,1617.83,19413.96,USD,"DT Inbound: Internet (18 TB per month), DT Outbound: Internet (18 TB per month)"
+My Estimate,US East (N. Virginia),,Amazon Elastic IP,0,0,0.00,USD,"Number of EC2 instances (1), Number of EIPs per instance (1), Number of EIP remaps (0)"
 
 
 

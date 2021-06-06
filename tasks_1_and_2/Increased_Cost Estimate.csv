@@ -7,6 +7,7 @@ My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,1675.35,
 My Estimate,US East (N. Virginia),,S3 Standard,0,96.45,1157.40,USD,S3 Standard storage (1 TB per month)
 My Estimate,US East (N. Virginia),,Data Transfer,0,1617.83,19413.96,USD,"DT Inbound: Internet (18 TB per month), DT Outbound: Internet (18 TB per month)"
 My Estimate,US East (N. Virginia),,Amazon ElastiCache,0,3775.56,45306.72,USD,( 3 instances of type Memcached  Memory optimized  cache r5.4xlarge  OnDemand )
+My Estimate,US East (N. Virginia),,Amazon Elastic IP,0,0,0.00,USD,"Number of EC2 instances (1), Number of EIPs per instance (1), Number of EIP remaps (0)"
 
 Added an Elastic Cache layer to accelerate the application server's data access.
 Added a third AZ to increase redundancy. This includes additional EC2 instances as well as a second read replica of the database.

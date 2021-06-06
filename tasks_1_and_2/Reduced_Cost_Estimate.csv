@@ -6,6 +6,7 @@ My Estimate,US East (N. Virginia),,Application Load Balancer,0,616.85,7402.20,US
 My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,1675.35,20104.20,USD,Number of NAT Gateways (1)
 My Estimate,US East (N. Virginia),,S3 Standard,0,60,720.00,USD,S3 Standard storage (1 TB per month)
 My Estimate,US East (N. Virginia),,Data Transfer,0,829.35,9952.20,USD,"DT Inbound: Internet (9 TB per month), DT Outbound: Internet (9 TB per month)"
+My Estimate,US East (N. Virginia),,Amazon Elastic IP,0,0,0.00,USD,"Number of EC2 instances (1), Number of EIPs per instance (1), Number of EIP remaps (0)"
 
 Changed the EC2 instance types to Standard Reserved instances with no upfront payment. 
 Reduced the amount of outbound data transfered from S3. This will require application updates to limit the size/quantity of media shared on the site.
