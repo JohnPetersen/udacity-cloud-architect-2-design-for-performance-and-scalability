@@ -1,0 +1,17 @@
+﻿Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),,Amazon RDS for MySQL,0,357.17100000000005,4286.05,USD,"Storage for each RDS instance (General Purpose SSD (gp2)), Storage amount (1 TB), Quantity (1), Instance type (db.m6g.xlarge), Deployment option (Single-AZ), Pricing strategy (Reserved 1yr No Upfront), Additional backup storage (1 TB)"
+My Estimate,US East (N. Virginia),Web Servers,Amazon EC2,0,1437.28,17247.36,USD,"Operating system (Linux), Quantity (8), Pricing strategy (Standard Reserved Instances 1 Year No Upfront), Storage amount (30 GB), Instance type (m5.2xlarge)"
+My Estimate,US East (N. Virginia),Application Servers,Amazon EC2,0,1425.28,17103.36,USD,"Operating system (Linux), Quantity (4), Pricing strategy (Standard Reserved Instances 1 Year No Upfront), Storage amount (30 GB), Instance type (m5.4xlarge)"
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,616.85,7402.20,USD,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),,Amazon Virtual Private Cloud (VPC),0,1675.35,20104.20,USD,Number of NAT Gateways (1)
+My Estimate,US East (N. Virginia),,S3 Standard,0,60,720.00,USD,S3 Standard storage (1 TB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,829.35,9952.20,USD,"DT Inbound: Internet (9 TB per month), DT Outbound: Internet (9 TB per month)"
+
+Changed the EC2 instance types to Standard Reserved instances with no upfront payment. 
+Reduced the amount of outbound data transfered from S3. This will require application updates to limit the size/quantity of media shared on the site.
+Changed the database to a single instance with extra backup storage. This will increase downtime in the event of a database outage.
+
+
+Acknowledgement
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services."
+https://calculator.aws/#/estimate?id=cec1ec8dd22c449bbf436728e4f6762097cfd441
